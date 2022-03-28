@@ -4,10 +4,10 @@ import Favorites from "./Favorites";
 import Recipe from "./Recipe";
 
 
-function RecipeList() {
+function RecipeList({cookBooks}) {
     return (
       <div className="App">
-          <Recipe />
+          {/* {cookBooks.map((cookBook) => <Recipe cookBook={cookBook}/>)} */}
           <Favorites />
           <Search />
       </div>

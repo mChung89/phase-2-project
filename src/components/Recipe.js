@@ -2,7 +2,8 @@
 
 
 
-function Recipe() {
+function Recipe({cookBook}) {
+    console.log(cookBook)
     return (
       <div className="App">
           <p>Recipe</p>
