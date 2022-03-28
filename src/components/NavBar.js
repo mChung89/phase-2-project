@@ -37,7 +37,7 @@ function a11yProps(index: number) {
   };
 }
 
-export default function BasicTabs() {
+export default function NavBar() {
   const [value, setValue] = useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
