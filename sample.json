@@ -3,6 +3,7 @@
         "author": "me",
         "recipes": [
             {
+                "id": 1,
                 "name": "Boiled Stuff",
                 "ingredients": [
                     "brocolli",
@@ -17,6 +18,7 @@
                 "nutrition": "Meets nutrition"
             },
             {
+                "id": 2,
                 "name": "Generic Food",
                 "ingredients": [
                     "onion",
@@ -35,6 +37,7 @@
         "author": "you",
         "recipes": [
             {
+                "id": 1,
                 "name": "Just make it",
                 "ingredients": [
                     "whatever i want"
@@ -45,6 +48,7 @@
                 "nutrition": "none"
             },
             {
+                "id": 2,
                 "name": "recipe2",
                 "ingredients": [
                     "whatever i want"
@@ -55,6 +59,7 @@
                 "nutrition": "none"
             },
             {
+                "id": 3,
                 "name": "recipe3",
                 "ingredients": [
                     "whatever i want"
@@ -70,6 +75,7 @@
         "author": "someone",
         "recipes": [
             {
+                "id": 1,
                 "name": "Just make it",
                 "ingredients": [
                     "whatever i want"
@@ -80,6 +86,7 @@
                 "nutrition": "none"
             },
             {
+                "id": 2,
                 "name": "recipe2",
                 "ingredients": [
                     "whatever i want"
@@ -90,6 +97,7 @@
                 "nutrition": "none"
             },
             {
+                "id": 3,
                 "name": "recipe3",
                 "ingredients": [
                     "whatever i want"
