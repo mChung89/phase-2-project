@@ -1,6 +1,10 @@
 import '../App.css';
 import NavBar from './NavBar'
 import {useEffect, useState} from 'react'
+import { 
+  Link,
+  Routes,
+  Route, } from "react-router-dom";
 import CookBookList from './CookBookList';
 import NewRecipe from './NewRecipe';
 import RecipeCards from './RecipeCards'
@@ -22,10 +26,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
-        <CookBookList />
-        <NewRecipe handleNewRecipe={handleNewRecipe} />
-        <RecipeCards recipes={recipes} />
+        <nav>
+          <Link to="/CookBookList">CookBookList</Link>
+          <Link to="/NewRecipe">NewRecipe</Link>
+          <Link to="/AllRecipes">AllRecipes</Link>
+        </nav>
+
+        <Routes>
+          <Route path="CookBookList" element={<CookBookList />}/>
+          <Route path="NewRecipe" element={<NewRecipe handleNewRecipe={handleNewRecipe} />}/>
+          <Route path="AllRecipes" element={<RecipeCards recipes={recipes} /> }/>
+        </Routes>
       </header>
     </div>
   );

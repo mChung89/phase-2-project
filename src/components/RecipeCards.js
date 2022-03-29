@@ -1,8 +1,8 @@
 function RecipeCards ({ recipes }) {
-    console.log(recipes)
+    
     const renderedCards = recipes.map(recipe => {
         return (
-            <div key={recipe.name}>
+            <div key={recipe.id}>
                 <img src={recipe.image}></img>
                 <h1>{recipe.name}</h1>
             </div>
