@@ -1,17 +1,25 @@
-import {useState} from 'react'
+import { useState } from "react";
 import Search from "./Search";
 import Favorites from "./Favorites";
-import Recipe from "./Recipe";
+import RecipeCard from "./RecipeCard";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
 
+function RecipeList({ recipes }) {
+  const [searchFilter, setSearch] = useState('')
+  const renderedCards = recipes.map((recipe) => (
+    <RecipeCard key={recipe.id} recipe={recipe} />
+  ));
+  return (
+    <>
+      <Search setSearch={setSearch} searchFilter={searchFilter}/>
+      <Box sx={{ flexGrow: 1, pt: 10 }}>
+        <Grid container spacing={3}>
+          {renderedCards}
+        </Grid>
+      </Box>
+    </>
+  );
+}
 
-function RecipeList({cookBooks}) {
-    return (
-      <div className="App">
-          {/* {cookBooks.map((cookBook) => <Recipe cookBook={cookBook}/>)} */}
-          <Favorites />
-          <Search />
-      </div>
-    );
-  }
-  
-  export default RecipeList;
+export default RecipeList;

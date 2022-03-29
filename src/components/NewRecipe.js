@@ -29,8 +29,10 @@ function NewRecipe({ handleNewRecipe }) {
     const key = e.target.name
     if (key === "ingredients") {
       setFormData({...formData, [key]: [...formData[key], ingredient]})
+      setIngredient('')
     } else if (key === "directions") {
       setFormData({...formData, [key]: [...formData[key], direction]})
+      setDirection('')
     }
   }
 
