@@ -9,8 +9,9 @@ function Search({ searchFilter, setSearch }) {
     <Box
       sx={{
         pt: 5,
-        width: 500,
+        width: 'flex',
         maxWidth: "100%",
+        minWidth: "30%"
       }}
     >
       <TextField
