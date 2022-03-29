@@ -33,7 +33,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="CookBookList" element={<CookBookList />}/>
+          <Route path="CookBookList" element={<CookBookList recipes={recipes}/>}/>
           <Route path="NewRecipe" element={<NewRecipe handleNewRecipe={handleNewRecipe} />}/>
           <Route path="AllRecipes" element={<RecipeCards recipes={recipes} /> }/>
         </Routes>
