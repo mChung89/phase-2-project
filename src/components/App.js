@@ -32,7 +32,7 @@ function App() {
       </Grid>
 
       <Routes>
-        <Route path="CookBookList" element={<CookBookList />} />
+        <Route path="CookBookList" element={<CookBookList recipes={recipes}/>} />
         <Route
           path="NewRecipe"
           element={<NewRecipe handleNewRecipe={handleNewRecipe} />}
