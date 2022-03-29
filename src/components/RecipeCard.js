@@ -18,10 +18,10 @@ function RecipeCard({ recipe }) {
           alt={recipe.name}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{overflow: 'auto'}}>
+          <Typography gutterBottom variant="h5" component="div" >
             {recipe.name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography sx={{overflow: 'auto'}} variant="body2" color="text.secondary">
             <ul> Ingredients
                 {renderedIngredients}
             </ul>

@@ -20,97 +20,200 @@
     {
       "author": "me",
       "id": 1,
-      "name": "Boiled Stuff",
+      "name": "Pizza",
+      "image": "https://www.simplyrecipes.com/thmb/8caxM88NgxZjz-T2aeRW3xjhzBg=/2000x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg",
       "ingredients": [
-        "brocolli",
-        "shallot",
-        "scallion"
+        "2 ½ cups warm water",
+        "1 teaspoon sugar",
+        "2 teaspoons active dry yeast",
+        "7 cups all-purpose flour, plus more for dusting",
+        "6 tablespoons extra virgin olive oil, plus more for greasing",
+        "1 ½ teaspoons kosher salt",
+        "¼ cup semolina flour",
+        "28 oz canned whole tomatoes",
+        "1 tablespoon kosher salt",
+        "fresh mozzarella cheese, torn into small pieces"
+
       ],
       "directions": [
-        "step one: Boil it",
-        "step two: Fry it",
-        "step three: Eat it"
+        "“Bloom” the yeast by sprinkling the sugar and yeast in the warm water. Let sit for 10 minutes, until bubbles form on the surface.",
+        "In a large bowl, combine the flour and salt. Make a well in the middle and add the olive oil and bloomed yeast mixture. Using a spoon, mix until a shaggy dough begins to form.",
+        "Once the flour is mostly hydrated, turn the dough out onto a clean work surface and knead for 10-15 minutes. The dough should be soft, smooth, and bouncy. Form the dough into a taut round.",
+        "Grease a clean, large bowl with olive oil and place the dough inside, turning to coat with the oil. Cover with plastic wrap. Let rise for at least an hour, or up to 24 hours.",
+        "Punch down the dough and turn it out onto a lightly floured work surface. Knead for another minute or so, then cut into 4 equal portions and shape into rounds.",
+        "Lightly flour the dough, then cover with a kitchen towel and let rest for another 30 minutes to an hour while you prepare the sauce and any other ingredients.",
+        "Preheat the oven as high as your oven will allow, between 450-500˚F (230-260˚C). Place a pizza stone, heavy baking sheet (turn upside down so the surface is flat), or cast iron skillet in the oven.",
+        "Meanwhile, make the tomato sauce: Add the salt to the can of tomatoes and puree with an immersion blender, or transfer to a blender or food processor, and puree until smooth.",
+        "Once the dough has rested, take a portion and start by poking the surface with your fingertips, until bubbles form and do not deflate.",
+        "Then, stretch and press the dough into a thin round. Make it thinner than you think it should be, as it will slightly shrink and puff up during baking.",
+        "Sprinkle semolina onto an upside down baking sheet and place the stretched crust onto it. Add the sauce and ingredients of your choice.",
+        "Slide the pizza onto the preheated pizza stone or pan. Bake for 15 minutes, or until the crust and cheese are golden brown.",
+        "Add any garnish of your preference."
       ]
     },
     {
       "author": "me",
       "id": 2,
-      "name": "Generic Food",
+      "name": "French Onion Pasta Bake",
+      "image": "https://www.halfbakedharvest.com/wp-content/uploads/2019/12/One-Pot-Creamy-French-Onion-Pasta-Bake-5.jpg",
       "ingredients": [
-        "onion",
-        "carrot",
-        "scallion"
+        "4 tablespoons butter",
+        "2-3 medium yellow onions, thinly sliced",
+        "2 teaspoons honey",
+        "1 cup dry red wine, such as Cabernet Sauvignon",
+        "2 cloves garlic, minced or grated",
+        "2 cups cremini or wild mushrooms, sliced",
+        "2 tablespoons fresh thyme leaves (or 2 teaspoons dried thyme)",
+        "kosher salt and black pepper",
+        "3 cups low sodium chicken broth (use vegetable broth, if vegetarian)",
+        "1 tablespoon Worcestershire sauce (use soy sauce, if vegetarian)",
+        "2 leaves bay leaves",
+        "1 pound of your favorite short cut pasta",
+        "1/4 teaspoon cayenne pepper using more or less to your taste",
+        "1 1/4 cups heavy cream, whole milk, or canned coconut milk",
+        "1/3 cup crumbled gorgonzola cheese (optional)",
+        "2 cups shredded gruyere cheese"
       ],
       "directions": [
-        "step one",
-        "step two",
-        "step three"
+        "Preheat the oven to 400 degrees F.",
+        "Melt the butter, onions, and honey together in a large pot over medium-high heat. Cook, stirring occasionally until softened, about 5 minutes. At this point, you want to slowly add 1/2 cup of the wine, 1/4 cup at a time, until the wine cooks into the onions. Continue to cook another 8-10 minutes until you've used the 1/2 cup of wine and the onions are deeply caramelized.",
+        "Add the garlic, mushrooms, thyme, and season with salt and pepper, cook another 3-4 minutes. Add the remaining 1/2 cup wine, the broth, Worcestershire sauce, bay leaves, and the pasta. Bring the mixture to a boil. Stir frequently until the pasta is al dente and the broth has been absorbed, about 8-10 minutes. Stir in the cayenne, cream, gorgonzola, if using, and 1/2 cup gruyere cheese. Remove from the heat.",
+        "If needed, transfer the pasta to a baking dish. Top with the remaining gruyere cheese.",
+        "Transfer the baking dish to the oven and bake 20 minutes or until the cheese has melted and is lightly browned on top. Cool 5 minutes before serving. Serve with fresh thyme. Enjoy!"
       ]
     },
     {
       "author": "you",
       "id": 3,
-      "name": "Just make it",
+      "name": "Pancakes",
+      "image": "https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg",
       "ingredients": [
-        "whatever i want"
-      ],
+        "1½ cups all-purpose flour",
+        "3½ teaspoons baking powder",
+        "¼ teaspoon salt, or more to taste",
+        "1 tablespoon white sugar",
+        "1¼ cups milk",
+        "1 egg",
+        "3 tablespoons butter, melted"
+       ],
       "directions": [
-        "just make it"
+        "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.",
+        "Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
       ]
     },
     {
       "author": "me",
       "id": 4,
-      "name": "recipe2",
+      "name": "Shrimp, Farro, and Kale Pesto Bowl",
+      "image": "https://i.pinimg.com/564x/0a/b0/c2/0ab0c2dc33b71a274fc8dbf839c57e29.jpg",
       "ingredients": [
-        "whatever i want"
+        "1/4 cup olive oil",
+        "1/4 cup maple syrup",
+        "1/4 cup soy sauce",
+        "1 teaspoon smoked paprika",
+        "1/2 teaspoon cumin",
+        "1/2 teaspoon Italian seasoning",
+        "1/2 teaspoon onion powder",
+        "1/2 teaspoon garlic powder",
+        "salt and black pepper (to taste)",
+        "16 ounces fresh shrimp, washed, peeled, and deviened",
+        "2-3 bell peppers",
+        "farro, rice, or cauliflower rice",
+        "kale pesto, magic green sauce, or any other yummy sauce"
       ],
       "directions": [
-        "just make it"
+        "Whisk or shake the marinate (ingredients up to shrimp) in a jar until combined.",
+        "Place shrimp in a shallow bowl. Cover with enough marinade to get some flavor on each shrimp (you might have some marinade left - that's okay, you can use it later in this recipe, or save for next week's bowls).",
+        "Let the shrimp rest for 20-30 minutes while you prep other ingredients, including your sauce! Place peppers, and shrimp with marinade each on their own sheet pans. Bake for 20-or-so minutes, rotating pans as needed, until you get some nice browning on everything (peppers will roast a few minutes faster). You can use the broiler to help with the browning as needed.",
+        "Serve in a bowl over farro, rice, or cauli rice. Top with your sauce (yeah kale pesto)! You can also put all this yumminess in a wrap or on a salad. Poof! Look at healthy, delicious you!"
       ]
     },
     {
       "author": "you",
       "id": 5,
-      "name": "recipe3",
+      "name": "Sausage Stuffing",
+      "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps27005_THCA153054C10_21_1b.jpg",
       "ingredients": [
-        "whatever i want"
+        "2 boxes of stouffers stuffing for each 1lb of sausage",
+        "1 lb of Jimmy Dean regular pork sausage",
+        "3 celery stalks",
+        "3 large yellow or white onions",
+        "5 carrots",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "just make it"
+        "Preheat your oven to 350F.",
+        "Prep your vegetables by cutting in to small, bit sized pieces.",
+        "Saute vegetables until tender. Set aside.",
+        "Prep stuffing per box instructions. Set aside.",
+        "Brown sausage, drain.",
+        "In the container you will cook it in, mix together the vegetables, stuffing, and sausage. Cover with aluminum foil.",
+        "Bake in oven until heated through, about 45 minutes if prepped same day and about 1 hour and 30 minutes if prepped the day before. Remove aluminum foil for the last 10 minutes if you want crispy bits on top."
       ]
     },
     {
-      "author": "someone",
+      "author": "her",
       "id": 6,
-      "name": "Just make it",
+      "name": "Crispy Brussel Sprouts",
+      "image": "https://static01.nyt.com/images/2014/04/29/dining/Roasted-Brussels-Sprouts/Roasted-Brussels-Sprouts-articleLarge-v3.jpg",
       "ingredients": [
-        "whatever i want"
+        "1 pint brussels sprouts (about a pound)",
+        "4 to 6 tablespoons extra virgin olive oil, to coat bottom of pan",
+        "5 cloves garlic, peeled",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "just make it"
+        "Heat oven to 400 degrees. Trim bottom of brussels sprouts, and slice each in half top to bottom. Heat oil in cast-iron pan over medium-high heat until it shimmers; put sprouts cut side down in one layer in pan. Put in garlic, and sprinkle with salt and pepper.",
+        "Cook, undisturbed, until sprouts begin to brown on bottom, and transfer to oven. Roast, shaking pan every 5 minutes, until sprouts are quite brown and tender, about 10 to 20 minutes.",
+        "Taste, and add more salt and pepper if necessary. Serve hot or warm."
       ]
     },
     {
       "author": "me",
       "id": 7,
-      "name": "recipe2",
+      "name": "Ratatouille Sheet Pan Dinner With Sausage",
+      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/Sheetpan-Ratatouille-6.jpg?w=1000&auto=compress%2Cformat&fit=crop&dm=1599766780&s=58d6f6aada263d0a2af6680c514fe04f",
       "ingredients": [
-        "whatever i want"
+        "Onion",
+        "Fresh garlic",
+        "Yellow squash",
+        "Zucchini",
+        "Eggplant",
+        "Cherry or grape tomatoes",
+        "Olive oil",
+        "Herbs! Fresh basil, fresh thyme.",
+        "Your favorite sausage. This can really be any sausage that you love! Turkey, chicken or pork sausage. You could even use a veggie sausage, like Beyond Meat or Field Roast. Just adjust the cook time if need be, according to the package directions."
       ],
       "directions": [
-        "just make it"
+        "jChopping. Lots and lots of it. But the good news is that once the zucchini, squash, eggplant and onions are sliced, the real work of this ratatouille recipe is done.",
+        "Toss all of the vegetables with olive oil, salt, basil and thyme on that rimmed sheet pan.",
+        "Nestle the sausages into the vegetables.",
+        "Bake! Bake for 40 minutes, until the vegetables are meltingly tender and the sausages are cooked.",
+        "Serve! We think this is particularly good served over creamy polenta, but you could just serve it as it is with a big salad and some crusty bread."
       ]
     },
     {
       "author": "her",
       "id": 8,
-      "name": "recipe3",
+      "name": "Bakery Style Chocolate Chip Muffins",
+      "image": "https://www.littlesweetbaker.com/wp-content/uploads/2018/10/chocolate-chip-muffins-2.jpg",
       "ingredients": [
-        "whatever i want"
+        "2 & ½ cups (315g) all-purpose flour",
+        "1 tbsp (13g) baking powder",
+        "1 tsp (5g) baking soda",
+        "½ tsp (2.5g) salt",
+        "½ cup (114g) unsalted butter, melted and cooled",
+        "1 cup (200g) granulated sugar",
+        "2 large eggs",
+        "1 cup (250ml) buttermilk",
+        "1 tbsp (15ml) vanilla extract",
+        "1 & ½ cups (275g) semi-sweet chocolate chips"
       ],
       "directions": [
-        "just make it"
+        "Preheat oven to 425°F. Spray a 12 cup muffin tray with non-stick cooking spray or line with paper liners.",
+        "In a large bowl, toss together the flour, baking powder, baking soda, salt and chocolate chips. Set aside.",
+        "In a medium bowl, whisk together the melted butter, sugar, eggs, milk and vanilla. Slowly add to the dry ingredients. Gently fold together until JUST combined.",
+        "Divide the batter into the 12 muffin cups and bake at 425°F for 5 minutes. Then reduce the oven temperature to 375°F and continue to bake for another 12-15 minutes or until a toothpick inserted into the center comes out clean. Do not overbake or the muffins will be dry. Let cool for about 5-10 minutes and enjoy warm."
       ],
       "nutrition": "none"
     },
@@ -119,29 +222,43 @@
       "name": "Pasta",
       "image": "https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-Spinach-Pasta-close.jpg",
       "ingredients": [
-        "Pasta",
-        "Pasta",
-        "Spinach",
-        "Tomato Sauce"
+        "1/2 lb. penne pasta",
+        "1 yellow onion",
+        "2 cloves garlic",
+        "1 Tbsp olive oil",
+        "1 15oz. can diced tomatoes",
+        "1/2 tsp dried oregano",
+        "1/2 tsp dried basil",
+        "1 pinch crushed red pepper (optional)",
+        "1/2 tsp salt",
+        "freshly cracked black pepper to taste",
+        "2 Tbsp tomato paste",
+        "2 oz. cream cheese",
+        "1/4 cup grated Parmesan",
+        "4 oz. fresh spinach"
       ],
       "directions": [
-        "Boil water",
-        "Put pasta into boiling water",
-        "Mix with spinach"
+        "Bring a large pot of water to a boil over high heat. Add the pasta and continue to boil until tender (7-10 minutes). Drain the pasta in a colander.",
+        "While the pasta is cooking, prepare the creamy tomato sauce. Dice the onion and mince the garlic. Add the onion, garlic, and olive oil to a large skillet and sauté over medium heat until the onions are soft and translucent (3-5 minutes).",
+        "Add the diced tomatoes (with juices), oregano, basil, crushed red pepper, salt, and some freshly cracked pepper to the skillet. Stir to combine. Add the tomato paste and a 1/2 cup of water to the skillet and stir until the tomato paste has mixed into the sauce.",
+        "Turn the heat down to low. Cut the cream cheese into a few pieces and then add them to the skillet with the tomato sauce. Use a whisk to stir the sauce until the cream cheese has fully melted and the sauce is creamy. Add the Parmesan to the skillet and stir until it is melted into the sauce.",
+        "Add the fresh spinach to the skillet and gently stir it into the sauce until it has wilted (2-3 minutes). Add the pasta and stir until it is well coated in the creamy tomato sauce. Taste and adjust the salt and pepper as needed. Serve warm."
       ],
       "id": 9
     },
     {
-      "author": "me",
+      "author": "you",
       "name": "French Fries",
       "image": "https://www.seriouseats.com/thmb/_BkW9V2wK3Zed-zQAETkRSJS8ac=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__04__20180309-french-fries-vicky-wasik-15-5a9844742c2446c7a7be9fbd41b6e27d.jpg",
       "ingredients": [
-        "Potatoes",
-        "Oil"
+        "1 russet potato, cut into evenly sized strips",
+        "1 quart vegetable oil for frying",
+        "Salt, to taste"
       ],
       "directions": [
-        "Cut potatoes",
-        "Fry in oil"
+        "Soak potatoes in a large bowl of water for about 30 minutes. Pat dry thoroughly with paper towels.",
+        "Heat oil in a deep-fryer or large saucepan to 275 degrees F (135 degrees C). Gently add the potatoes in the hot oil for about 5 minutes, stirring and flipping the potatoes occasionally. Remove potatoes from oil with a slotted spoon to drain on paper towel and to cool completely.",
+        "Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C). Fry the potatoes again until golden brown, 5 to 6 minutes. Blot with a paper towel. Sprinkle with salt to serve."
       ],
       "id": 10
     }
