@@ -9,7 +9,7 @@ import Grid from "@mui/material/Grid";
 function RecipeCard({ recipe }) {
   const renderedIngredients = recipe.ingredients.map(step => <li>{step}</li>)
   return (
-    <Grid item xs>
+    <Grid key={recipe.id} item xs>
       <Card sx={{ width: 330, height: 350 }}>
         <CardMedia
           component="img"
