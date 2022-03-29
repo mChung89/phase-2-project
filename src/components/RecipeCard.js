@@ -7,7 +7,6 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 
 function RecipeCard({ recipe }) {
-  console.log(recipe);
   const renderedIngredients = recipe.ingredients.map(step => <li>{step}</li>)
   return (
     <Grid item xs>
