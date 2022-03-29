@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function NewRecipe() {
+function NewRecipe({ handleNewRecipe }) {
   const defaultState = {
     author: '',
     name: '',
@@ -11,14 +11,6 @@ function NewRecipe() {
   const [formData, setFormData] = useState(defaultState)
   const [ingredient, setIngredient] = useState('')
   const [direction, setDirection] = useState('')
-  const [cookbookData, setCookBookData] = useState([])
-
-  useEffect(() => {
-    fetch('http://localhost:3001/allcookbooks/cookbook1/')
-    .then(resp => resp.json())
-    .then(data => setCookBookData(data))
-  },[])
-  console.log(cookbookData)
 
   function handleChange (e) {
     if (e.target.name === "ingredients") {
@@ -44,16 +36,15 @@ function NewRecipe() {
 
   function handleSubmit(e) {
     e.preventDefault()
-    console.log(formData)
-    fetch('http://localhost:3001/allcookbooks/cookbook1/', {
-      method: 'PATCH',
+    fetch('http://localhost:3001/recipes', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({...cookbookData, recipes: [...cookbookData.recipes, formData]})
+      body: JSON.stringify(formData)
     })
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(handleNewRecipe)
   }
   
   return (
