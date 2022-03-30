@@ -5,8 +5,11 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import { useState } from "react";
+import Recipe from "./Recipe";
 
 function RecipeCard({ recipe }) {
+
   const renderedIngredients = recipe.ingredients.map((step, index) => {
   return <li key={index}>{step}</li>}
   )
@@ -24,16 +27,16 @@ function RecipeCard({ recipe }) {
           <Typography gutterBottom variant="h5" component="div" >
             {recipe.name}
           </Typography>
+        <CardActions>
+          {/* <Button size="small">View Recipe</Button> */}
+          <Recipe recipe={recipe} renderedIngredients={renderedIngredients}/>
+        </CardActions>
           <Typography variant="body2" color="text.secondary">
             <ul> Ingredients
                 {renderedIngredients}
             </ul>
           </Typography>
         </CardContent>
-        {/* <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions> */}
       </Card>
     </Grid>
   );
