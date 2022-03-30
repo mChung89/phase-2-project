@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
       <Grid>
         <nav>
           <Link to="/CookBookList">CookBookList</Link>
