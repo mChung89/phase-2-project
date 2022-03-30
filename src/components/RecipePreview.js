@@ -4,7 +4,13 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
 function RecipePreview({ formData }) {
-  console.log(formData);
+  const renderedIngredients = formData.ingredients.map((each) => (
+    <li>{each}</li>
+  ))
+
+  const renderedDirections = formData.directions.map((each) => (
+    <li>{each}</li>
+  ))
   return (
     <Paper sx={{ bgcolor: "white", minWidth: "50%", height: 600 }}>
       <Container
@@ -25,9 +31,7 @@ function RecipePreview({ formData }) {
           <Typography>
             {formData.ingredients[0] !== undefined ? `Ingredients :` : null}
             <ul>
-              {formData.ingredients.map((each) => (
-                <li>{each}</li>
-              ))}
+              {renderedIngredients}
             </ul>
           </Typography>
         </Grid>
@@ -35,9 +39,7 @@ function RecipePreview({ formData }) {
           <Typography>
             {formData.directions[0] !== undefined ? `Directions: ` : null}
             <ol>
-              {formData.directions.map((each) => (
-                <li>{each}</li>
-              ))}
+              {renderedDirections}
             </ol>
           </Typography>
         </Grid>

@@ -24,14 +24,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Grid>
-        <nav>
-          <Link to="/CookBookList">CookBookList</Link>
-          <Link to="/NewRecipe">NewRecipe</Link>
-          <Link to="/AllRecipes">AllRecipes</Link>
-        </nav>
-      </Grid>
-
       <Routes>
         <Route path="CookBookList" element={<CookBookList recipes={recipes}/>} />
         <Route

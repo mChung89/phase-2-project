@@ -2,7 +2,11 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { useState } from 'react'
- 
+import spoon from '../icons/spoon.png'
+import Typography from '@mui/material/Typography'
+import { Link } from 'react-router-dom'
+
+
 export default function ColorTabs() {
   const [value, setValue] = useState('one');
 
@@ -11,17 +15,27 @@ export default function ColorTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box>
       <Tabs
         value={value}
         onChange={handleChange}
         textColor="primary"
         indicatorColor="primary"
         aria-label="secondary tabs example"
+        sx={{bgcolor: 'rgba(0,0,0,0)', p: 1}}
       >
-        <Tab value="one" label="Item One" />
-        <Tab value="two" label="Item Two" />
-        <Tab value="three" label="Item Three" />
+        <div style={{height: '50px'}}>
+        <Typography
+            noWrap
+            component="img"
+            src={spoon}
+            sx={{height: 1, pr: 2}}
+          >
+        </Typography>
+        </div>
+        <Tab component={Link} to="/CookBookList" value="cookbooks" label="Cookbook List" />
+        <Tab component={Link} to="/NewRecipe" value="newrecipes" label="New Recipe" />
+        <Tab component={Link} to="/AllRecipes" value="allrecipes" label="All Recipes" />
       </Tabs>
     </Box>
   );
