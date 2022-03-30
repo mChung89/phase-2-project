@@ -48,7 +48,7 @@ function CookBookList({recipes}) {
     const [filterByAuthor, setFilterByAuthor] = useState('My Cookbook')
 
     useEffect(() => {
-        fetch('http://localhost:3001/images')
+        fetch('http://localhost:3001/cookbooks')
         .then(resp => resp.json())
         .then(bookImgData => setBookImages(bookImgData))
     }, [])
