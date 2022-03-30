@@ -24,7 +24,7 @@ export default function ColorTabs() {
         aria-label="secondary tabs example"
         sx={{bgcolor: 'rgba(0,0,0,0)', p: 1}}
       >
-        <div style={{height: '50px'}}>
+        <Box component={Link} label="Home" to="/" style={{height: '50px'}}>
         <Typography
             noWrap
             component="img"
@@ -32,7 +32,7 @@ export default function ColorTabs() {
             sx={{height: 1, pr: 2}}
           >
         </Typography>
-        </div>
+        </Box>
         <Tab component={Link} to="/CookBookList" value="cookbooks" label="Cookbook List" />
         <Tab component={Link} to="/NewRecipe" value="newrecipes" label="New Recipe" />
         <Tab component={Link} to="/AllRecipes" value="allrecipes" label="All Recipes" />

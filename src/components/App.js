@@ -1,11 +1,11 @@
 import "../App.css";
 import NavBar from "./NavBar";
 import { useEffect, useState } from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import CookBookList from "./CookBookList";
 import NewRecipe from "./NewRecipe";
 import RecipeList from "./RecipeList";
-import Grid from "@mui/material/Grid";
+import Home from './Home'
 
 //json-server --watch sample.json -p 3001
 
@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
+        <Route exact path="/" element={<Home />}/>
         <Route path="CookBookList" element={<CookBookList recipes={recipes}/>} />
         <Route
           path="NewRecipe"
