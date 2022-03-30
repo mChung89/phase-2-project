@@ -7,7 +7,10 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 
 function RecipeCard({ recipe }) {
-  const renderedIngredients = recipe.ingredients.map(step => <li>{step}</li>)
+  const renderedIngredients = recipe.ingredients.map((step, index) => {
+  return <li key={index}>{step}</li>}
+  )
+
   return (
     <Grid key={recipe.id} item xs>
       <Card sx={{ width: 330, height: 350 }}>
@@ -17,20 +20,20 @@ function RecipeCard({ recipe }) {
           image={recipe.image}
           alt={recipe.name}
         />
-        <CardContent>
+        <CardContent sx={{ maxHeight: '50%', overflow: 'auto'}}>
           <Typography gutterBottom variant="h5" component="div" >
             {recipe.name}
           </Typography>
-          <Typography sx={{overflow: 'auto'}} variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary">
             <ul> Ingredients
                 {renderedIngredients}
             </ul>
           </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
           <Button size="small">Share</Button>
           <Button size="small">Learn More</Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </Grid>
   );

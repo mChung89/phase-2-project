@@ -2,15 +2,13 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { useState } from 'react'
+import Select from '@mui/material/Select';
 
 export default function SearchBy({ setSearchBy }) {
 
   function handleChange (e) {
     setSearchBy(e.target.value)
   };
-  // console.log(searchBy)
 
   return (
     <Box sx={{ pl: 2, pt: 5, minWidth: 200 }}>
