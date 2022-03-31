@@ -29,13 +29,14 @@ export default function ColorTabs() {
             noWrap
             component="img"
             src={spoon}
+            alt="home icon"
             sx={{height: 1, pr: 2}}
           >
         </Typography>
         </Box>
-        <Tab component={Link} to="/CookBookList" value="cookbooks" label="Cookbook List" />
-        <Tab component={Link} to="/NewRecipe" value="newrecipes" label="New Recipe" />
-        <Tab component={Link} to="/AllRecipes" value="allrecipes" label="All Recipes" />
+        <Tab component={Link} to="/CookBookList" value="cookbooks" label="Cookbook List" tabIndex={0} />
+        <Tab component={Link} to="/NewRecipe" value="newrecipes" label="New Recipe" tabIndex={0} />
+        <Tab component={Link} to="/AllRecipes" value="allrecipes" label="All Recipes" tabIndex={0} />
       </Tabs>
     </Box>
   );

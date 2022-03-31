@@ -66,7 +66,7 @@ function Recipe({ recipe, renderedIngredients }) {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
+      <Button variant="outlined" onClick={handleClickOpen} aria-label={` View ${recipe.name} recipe`}>
         View Recipe
       </Button>
       <BootstrapDialog

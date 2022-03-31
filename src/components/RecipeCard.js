@@ -24,7 +24,7 @@ function RecipeCard({ recipe }) {
           alt={recipe.name}
         />
         <CardContent sx={{ maxHeight: '50%', overflow: 'auto'}}>
-          <Typography gutterBottom variant="h5" component="div" >
+          <Typography gutterBottom variant="h4" component="div" style={{fontSize: "1.5rem"}} >
             {recipe.name}
           </Typography>
         <CardActions>

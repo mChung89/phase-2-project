@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import RecipeList from './RecipeList';
 import NewCookBook from './NewCookBook';
+import { Typography } from '@mui/material';
 
 function CookBookList({recipes}) {
 
@@ -36,7 +37,8 @@ function CookBookList({recipes}) {
 
   return (
     <>
-        <Box onClick={handleClick} sx={{ flexGrow: 1, pt: 10 }}>
+        <Box onClick={handleClick} sx={{ flexGrow: 1, pt: 10 }} >
+        <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
             <Grid container spacing={3}>
                 {renderedBookImages}
             </Grid>

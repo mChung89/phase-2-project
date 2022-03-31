@@ -18,6 +18,7 @@ function CookBookCard({ id, image }) {
                         image={image}
                         alt={id}
                         id={id}
+                        aria-label={` Select ${id} recipes below`}
                     />
                 <div style={{position: "absolute",
                     fontSize: "1.25rem",
@@ -25,7 +26,7 @@ function CookBookCard({ id, image }) {
                     color: "white", 
                     bottom: 10,
                     left: "50%",
-                    transform: "translateX(-50%)",}}>
+                    transform: "translateX(-50%)",}} >
                         {id}
                 </div>
             </div>

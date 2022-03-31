@@ -44,7 +44,7 @@ function NewCookBook({ handleNewCookBook }) {
           direction="column"
           sx={{ p: 3 }}
         >
-          <Typography sx={{ p: 1 }} variant="h4">
+          <Typography sx={{ p: 1 }} style={{fontSize: "2rem"}}>
             Add a Cookbook!
           </Typography>
           <TextField
