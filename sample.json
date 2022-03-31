@@ -260,6 +260,31 @@
         "Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C). Fry the potatoes again until golden brown, 5 to 6 minutes. Blot with a paper towel. Sprinkle with salt to serve."
       ],
       "id": 10
+    },
+    {
+      "author": "My Cookbook",
+      "name": "Chopped Cheese",
+      "image": "https://raymonds.recipes/wp-content/uploads/2020/08/Img1263.jpg",
+      "ingredients": [
+        "Burger Patties",
+        "Oil",
+        "Onion",
+        "American Cheese",
+        "Hero Rolls",
+        "Tomato",
+        "Iceberg Lettuce"
+      ],
+      "directions": [
+        "Prep the bread. Cut 3/4 deep into bread length-wise",
+        "Toast the bread",
+        "Sautee the onions",
+        "Brown the meat. Make sure you flip it and brown both sides",
+        "Chop up the meat with TWO STEEL SPATULAS",
+        "Add the cooked onions to chopped meat",
+        "Place cheese on top of meat/onion mixture",
+        "Dump everything onto toasted hero.",
+        "Assemble the sandwich with lettuce and sliced tomato"
+      ]
     }
   ]
 }

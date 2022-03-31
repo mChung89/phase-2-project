@@ -3,6 +3,7 @@ import Stack from "@mui/material/Stack";
 import MenuItem from "@mui/material/MenuItem";
 import RecipePreview from "./RecipePreview";
 import RecipeForm from './RecipeForm'
+import { useNavigate } from 'react-router-dom'
 
 function NewRecipe({ handleNewRecipe }) {
   const defaultState = {
@@ -53,18 +54,20 @@ function NewRecipe({ handleNewRecipe }) {
     </MenuItem>
   ));
 
+  const navigate = useNavigate()
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formData);
-    // fetch("http://localhost:3001/recipes", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(formData),
-    // })
-    //   .then((res) => res.json())
-    //   .then(handleNewRecipe);
+    fetch("http://localhost:3001/recipes", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then(res => res.ok ? res.json() : alert("Recipe could not be uploaded. Try again..."))
+      .then(handleNewRecipe)
+      .then(() => navigate(`/AllRecipes`))
+
   }
 
   return (

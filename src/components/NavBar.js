@@ -1,24 +1,15 @@
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import { useState } from 'react'
 import spoon from '../icons/spoon.png'
 import Typography from '@mui/material/Typography'
 import { Link } from 'react-router-dom'
 
 
 export default function ColorTabs() {
-  const [value, setValue] = useState('one');
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
   return (
     <Box>
       <Tabs
-        value={value}
-        onChange={handleChange}
         textColor="primary"
         indicatorColor="primary"
         aria-label="secondary tabs example"

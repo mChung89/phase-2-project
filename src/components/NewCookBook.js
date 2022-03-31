@@ -22,7 +22,6 @@ function NewCookBook({ handleNewCookBook }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log("cookbook form data:", formData);
     fetch("http://localhost:3001/cookbooks", {
       method: "POST",
       headers: {

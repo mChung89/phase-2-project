@@ -7,3 +7,12 @@ body {
 a {
     padding: 1em;
 }
+
+span {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 2000ms;
+  }
+  
+  span:hover {
+    text-decoration-color: rgba(235, 50, 81, 1);
+  }
