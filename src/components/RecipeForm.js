@@ -77,7 +77,7 @@ function RecipeForm({ handleChange, handleSubmit, handleStepSubmit, formData, in
                 name="ingredients"
                 onClick={handleStepSubmit}
               >
-                List Ingredient!
+                List Next Ingredient!
               </Button>
             </InputAdornment>
           ),
@@ -99,7 +99,7 @@ function RecipeForm({ handleChange, handleSubmit, handleStepSubmit, formData, in
                 name="directions"
                 onClick={handleStepSubmit}
               >
-                List Directions!
+                List Next Step!
               </Button>
             </InputAdornment>
           ),

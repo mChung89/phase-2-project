@@ -1,52 +1,63 @@
-import {useState, useEffect} from 'react'
-import CookBookCard from './CookBookCard';
+import { useState, useEffect } from "react";
+import CookBookCard from "./CookBookCard";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import RecipeList from './RecipeList';
-import NewCookBook from './NewCookBook';
-import { Typography } from '@mui/material';
+import RecipeList from "./RecipeList";
+import NewCookBook from "./NewCookBook";
+import Stack from "@mui/material/Stack";
+import { Typography } from "@mui/material";
 
-function CookBookList({recipes}) {
+function CookBookList({ recipes }) {
+  const [bookImages, setBookImages] = useState([]);
+  const [filterByAuthor, setFilterByAuthor] = useState("My Cookbook");
 
-    const [bookImages, setBookImages] = useState([])
-    const [filterByAuthor, setFilterByAuthor] = useState('My Cookbook')
+  useEffect(() => {
+    fetch("http://localhost:3001/cookbooks")
+      .then((resp) => resp.json())
+      .then((bookImgData) => setBookImages(bookImgData));
+  }, []);
 
-    useEffect(() => {
-        fetch('http://localhost:3001/cookbooks')
-        .then(resp => resp.json())
-        .then(bookImgData => setBookImages(bookImgData))
-    }, [])
-    
-    
-    const filteredCookbook = recipes.filter(recipe => {
-        if (recipe.author === filterByAuthor){
-            return true
-         }
-     })
-    
-    function handleClick (e) {
-        setFilterByAuthor(e.target.id)
+  const filteredCookbook = recipes.filter((recipe) => {
+    if (recipe.author === filterByAuthor) {
+      return true;
     }
+  });
 
-    const renderedBookImages = bookImages.map(bookImg =>  <CookBookCard key={bookImg.id} id={bookImg.author} image={bookImg.imageUrl}/>)
-    
-    function handleNewCookBook (newCookBook) {
-        console.log("handle new cookbook log: ", newCookBook)
-         setBookImages([...bookImages, newCookBook])
-    }
+  function handleClick(e) {
+    setFilterByAuthor(e.target.id);
+  }
+
+  const renderedBookImages = bookImages.map((bookImg) => (
+    <CookBookCard
+      key={bookImg.id}
+      id={bookImg.author}
+      image={bookImg.imageUrl}
+    />
+  ));
+
+  function handleNewCookBook(newCookBook) {
+    console.log("handle new cookbook log: ", newCookBook);
+    setBookImages([...bookImages, newCookBook]);
+  }
 
   return (
     <>
-        <Box onClick={handleClick} sx={{ flexGrow: 1, pt: 10 }} >
-        <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
+      <Stack direction="row">
+        <Grid container alignSelf="center" sx={{width: "70%"}}>
+          <Box onClick={handleClick} sx={{ ml: 3, flexGrow: 1}}>
+          <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
             <Grid container spacing={3}>
-                {renderedBookImages}
+              {renderedBookImages}
             </Grid>
-        </Box>
-        <NewCookBook handleNewCookBook={handleNewCookBook}/>
-        <div>
-            <RecipeList recipes={filteredCookbook}/>
-        </div>
+          </Box>
+        </Grid>
+        <Grid>
+          <NewCookBook handleNewCookBook={handleNewCookBook} />
+        </Grid>
+      </Stack>
+      <div>
+        <RecipeList recipes={filteredCookbook} />
+      </div>
     </>
   );
 }
