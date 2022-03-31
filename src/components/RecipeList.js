@@ -22,16 +22,18 @@ function RecipeList({ recipes }) {
     
   return (
     <>
+    <Stack sx={{mx:2}}>
       <Stack direction="row" sx={{ width: 1600}}>
         <Search setSearch={setSearch} searchFilter={searchFilter} />
         <SearchBy setSearchBy={setSearchBy} />
       </Stack>
       <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Recipes</Typography>
-      <Box sx={{ flexGrow: 1, pt: 10 }}>
+      <Box sx={{ flexGrow: 1}}>
         <Grid container spacing={3}>
           {renderedCards}
         </Grid>
       </Box>
+      </Stack>
     </>
   );
 }

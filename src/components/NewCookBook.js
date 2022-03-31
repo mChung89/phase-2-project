@@ -35,7 +35,7 @@ function NewCookBook({ handleNewCookBook }) {
   }
 
   return (
-      <Paper sx={{ maxWidth: "50%",  position:'relative', left: "45%" }}>
+      <Paper sx={{ mt:6, maxWidth: "50%",  position:'relative', left: "45%" }}>
         <Box
           component="form"
           onSubmit={handleSubmit}
