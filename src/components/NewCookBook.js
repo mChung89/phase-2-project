@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -36,13 +35,11 @@ function NewCookBook({ handleNewCookBook }) {
   }
 
   return (
-    <Stack sx={{ m: 5 }} direction="row" justifyContent="center" spacing={3}>
-      <Paper sx={{ maxWidth: "50%" }}>
+      <Paper sx={{ maxWidth: "50%",  position:'relative', left: "45%" }}>
         <Box
           component="form"
           onSubmit={handleSubmit}
-          direction="column"
-          sx={{ p: 3 }}
+          sx={{ p: 3}}
         >
           <Typography sx={{ p: 1 }} variant="h4">
             Add a Cookbook!
@@ -75,7 +72,6 @@ function NewCookBook({ handleNewCookBook }) {
           </Button>
         </Box>
       </Paper>
-    </Stack>
   );
 }
 

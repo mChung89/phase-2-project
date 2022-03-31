@@ -7,8 +7,6 @@ import NewRecipe from "./NewRecipe";
 import RecipeList from "./RecipeList";
 import Home from './Home'
 
-//json-server --watch sample.json -p 3001
-
 function App() {
   const [recipes, setRecipes] = useState([]);
   useEffect(() => {
