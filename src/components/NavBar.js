@@ -8,7 +8,7 @@ export default function ColorTabs() {
     <Box sx={{bgcolor: 'white', ml:2, pr:2, width: 'fit-content', borderRadius: 2}}>
       <Tabs
         textColor="primary"
-        indicatorColor="primary"
+        indicatorColor="secondary"
         aria-label="secondary tabs example"
         sx={{bgcolor: 'rgba(0,0,0,0)', p: 1}}
       >

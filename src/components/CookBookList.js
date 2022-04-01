@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Typography, Divider, Stack, Grid, Box } from "@mui/material";
+import { Typography, Stack, Grid, Box } from "@mui/material";
 import CookBookCard from "./CookBookCard";
 import RecipeList from "./RecipeList";
 import NewCookBook from "./NewCookBook";
@@ -41,8 +41,8 @@ function CookBookList({ recipes }) {
     <>
       <Stack direction="row">
         <Grid xs={15} container>
+          <Typography sx={{ ml:3, p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
           <Box onClick={handleClick} sx={{ ml: 3, flexGrow: 1}}>
-          <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
             <Grid direction="row" container spacing={1}>
               {renderedBookImages}
             </Grid>

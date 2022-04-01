@@ -30,7 +30,7 @@ function NewCookBook({ handleNewCookBook }) {
   }
 
   return (
-      <Paper sx={{ mt:6, maxWidth: "70%",  position:'relative', left: "25%" }}>
+      <Paper sx={{ mt:6, maxWidth: "80%",  position:'relative', left: "15%" }}>
         <Box
           component="form"
           onSubmit={handleSubmit}
@@ -59,7 +59,7 @@ function NewCookBook({ handleNewCookBook }) {
           />
           <Button
             variant="contained"
-            sx={{ m: 1 }}
+            sx={{ m: 1, left: 7 }}
             type="submit"
             value="Submit new cookbook!"
           >
