@@ -4,11 +4,12 @@ import Box from '@mui/material/Box';
 import spoon from '../icons/spoon.png'
 import Typography from '@mui/material/Typography'
 import { Link } from 'react-router-dom'
+import Divider from '@mui/material/Divider'
 
 
 export default function ColorTabs() {
   return (
-    <Box>
+    <Box sx={{bgcolor: 'white', ml:2, pr:2, width: 'fit-content', borderRadius: 2}}>
       <Tabs
         textColor="primary"
         indicatorColor="primary"
