@@ -1,11 +1,5 @@
 import { useState, useEffect } from "react";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import TextField from "@mui/material/TextField";
-import Button from "@mui/material/Button";
-import InputAdornment from "@mui/material/InputAdornment";
-import MenuItem from "@mui/material/MenuItem";
+import { Box, Paper, Typography, TextField, Button, InputAdornment, MenuItem } from "@mui/material"
 
 
 function RecipeForm({ handleChange, handleSubmit, handleStepSubmit, formData, ingredient, direction }) {

@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
+import { Typography, Divider, Stack, Grid, Box } from "@mui/material";
 import CookBookCard from "./CookBookCard";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import RecipeList from "./RecipeList";
 import NewCookBook from "./NewCookBook";
-import Stack from "@mui/material/Stack";
-import { Typography } from "@mui/material";
 
 function CookBookList({ recipes }) {
   const [bookImages, setBookImages] = useState([]);
@@ -43,16 +40,16 @@ function CookBookList({ recipes }) {
   return (
     <>
       <Stack direction="row">
-        <Grid container alignSelf="center" sx={{width: "70%"}}>
+        <Grid xs={15} container>
           <Box onClick={handleClick} sx={{ ml: 3, flexGrow: 1}}>
           <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Your Cookbooks</Typography>
-            <Grid container spacing={3}>
+            <Grid direction="row" container spacing={1}>
               {renderedBookImages}
             </Grid>
           </Box>
         </Grid>
-        <Grid>
-          <NewCookBook handleNewCookBook={handleNewCookBook} />
+        <Grid xs={3}>
+          <NewCookBook sx={{bgcolor:'white'}} handleNewCookBook={handleNewCookBook} />
         </Grid>
       </Stack>
       <div>

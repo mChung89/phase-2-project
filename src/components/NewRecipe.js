@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import Stack from "@mui/material/Stack";
-import MenuItem from "@mui/material/MenuItem";
+import { Stack, MenuItem } from "@mui/material"
+import { useNavigate } from 'react-router-dom'
 import RecipePreview from "./RecipePreview";
 import RecipeForm from './RecipeForm'
-import { useNavigate } from 'react-router-dom'
 
 function NewRecipe({ handleNewRecipe }) {
   const defaultState = {
@@ -72,7 +71,7 @@ function NewRecipe({ handleNewRecipe }) {
 
   return (
     <Stack sx={{ m: 5 }} direction="row" justifyContent="center" spacing={3}>
-      <RecipeForm handleSubmit={handleSubmit} formData={formData} handleStepSubmit={handleStepSubmit} handleChange={handleChange}/>
+      <RecipeForm ingredient={ingredient} direction={direction} handleSubmit={handleSubmit} formData={formData} handleStepSubmit={handleStepSubmit} handleChange={handleChange}/>
       {formData.name ||
       formData.author ||
       formData.image ||

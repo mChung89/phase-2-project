@@ -1,11 +1,8 @@
 import { useState } from "react";
+import { Typography, Stack, Grid, Box } from "@mui/material";
 import Search from "./Search";
 import RecipeCard from "./RecipeCard";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import SearchBy from "./SearchBy"
-import Stack from "@mui/material/Stack"
-import Typography from "@mui/material/Typography";
 
 function RecipeList({ recipes }) {
   const [searchFilter, setSearch] = useState("");
@@ -22,12 +19,14 @@ function RecipeList({ recipes }) {
     
   return (
     <>
-    <Stack sx={{mx:2}}>
-      <Stack direction="row" sx={{ width: 1600}}>
+    <Stack sx={{mx:2, mt:2}}>
+      <Stack component="paper" spacing={2} direction="row" sx={{ p:2, mb:2, width: "60%"}}>
+        <Box>
+          <Typography sx={{ p: 1}} variant="h2" style={{fontSize: "2rem"}}>Recipes</Typography>
+        </Box>
         <Search setSearch={setSearch} searchFilter={searchFilter} />
         <SearchBy setSearchBy={setSearchBy} />
       </Stack>
-      <Typography sx={{ p: 1 }} variant="h2" style={{fontSize: "2rem"}}>Recipes</Typography>
       <Box sx={{ flexGrow: 1}}>
         <Grid container spacing={3}>
           {renderedCards}

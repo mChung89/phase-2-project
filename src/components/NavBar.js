@@ -1,10 +1,6 @@
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 import spoon from '../icons/spoon.png'
-import Typography from '@mui/material/Typography'
 import { Link } from 'react-router-dom'
-import Divider from '@mui/material/Divider'
+import { Typography, Box, Tab, Tabs } from "@mui/material"
 
 
 export default function ColorTabs() {

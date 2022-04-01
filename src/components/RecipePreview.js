@@ -1,7 +1,5 @@
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import { Paper, Typography, Grid, Stack } from "@mui/material"
+
 
 function RecipePreview({ formData }) {
   const renderedIngredients = formData.ingredients.map((each) => (

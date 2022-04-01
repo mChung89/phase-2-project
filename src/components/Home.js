@@ -1,13 +1,10 @@
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container"
-import Box from "@mui/material/Box"
-import Stack from "@mui/material/Stack"
+import { Stack, Box, Typography, Container } from "@mui/material"
 function Home() {
   return (
     <Container mt={10}>
       <Container>
         <Typography textAlign="center" justifyContent="center" mx={2} mt={6} variant="h1">The Definitive <span>Ultimate</span> Cookbook.</Typography>
-        <Typography mx={2} justifyContent="right" variant="p">.v2</Typography>
+        <Typography mx={2} ml={100} variant="p">.v2</Typography>
       </Container>
       <Container>
         <Stack>

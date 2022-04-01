@@ -1,8 +1,4 @@
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import { Box, InputLabel, MenuItem, FormControl, Select } from "@mui/material"
 
 export default function SearchBy({ setSearchBy }) {
 
@@ -11,7 +7,7 @@ export default function SearchBy({ setSearchBy }) {
   };
 
   return (
-    <Box sx={{ pl: 2, pt: 5, minWidth: 200 }}>
+    <Box sx={{ minWidth: 120}}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Search By</InputLabel>
         <Select

@@ -1,7 +1,4 @@
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import Grid from "@mui/material/Grid";
-import { CardActionArea } from '@mui/material';
+import { CardActionArea, Card, CardMedia, Grid } from '@mui/material';
 
 
 function CookBookCard({ id, image }) {

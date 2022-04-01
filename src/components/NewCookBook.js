@@ -1,9 +1,5 @@
 import { useState } from "react";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import TextField from "@mui/material/TextField";
-import Button from "@mui/material/Button";
+import { Box, Paper, Typography, TextField, Button} from "@mui/material"
 
 
 function NewCookBook({ handleNewCookBook }) {
@@ -34,7 +30,7 @@ function NewCookBook({ handleNewCookBook }) {
   }
 
   return (
-      <Paper sx={{ mt:6, maxWidth: "50%",  position:'relative', left: "45%" }}>
+      <Paper sx={{ mt:6, maxWidth: "70%",  position:'relative', left: "25%" }}>
         <Box
           component="form"
           onSubmit={handleSubmit}
